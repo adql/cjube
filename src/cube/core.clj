@@ -22,7 +22,7 @@
          [d1 d2 d3 d4 d5 d6 d7 d8 d9]
          [u1 u2 u3 u4 u5 u6 u7 u8 u9]] cube]
     [[l1 l2 d1 l4 l5 d2 l7 l8 d3]
-     [u7 r2 r3 u8 r4 r5 u9 r8 r9]
+     [u7 r2 r3 u8 r5 r6 u9 r8 r9]
      [f7 f4 f1 f8 f5 f2 f9 f6 f3]
      [b1 b2 b3 b4 b5 b6 b7 b8 b9]
      [r7 r4 r1 d4 d5 d6 d7 d8 d9]
