@@ -119,7 +119,7 @@
   (let [face (get-face rotation)]
     (loop [cube cube
            i (get-iteration rotation)]
-      (if (= i 1) (rotate-single cube face) (recur (rotate-once cube face) (dec i))))))
+      (if (= i 1) (rotate-single cube face) (recur (rotate-single cube face) (dec i))))))
 
 (defn rotate
   "Perform a series of movements given as a string"
