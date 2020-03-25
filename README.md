@@ -1,10 +1,20 @@
-# cube
+# Cjube
 
-A Clojure library designed to ... well, that part is up to you.
+A very simple (for now) representation for 3x3 riddle cube.
 
 ## Usage
 
-FIXME
+Cuurently only in REPL (with `lein repl`).
+
+`(rotate <cube> <moves>)` will perform a series of rotations. The moves are represented as a string of [standard cube notation](https://ruwix.com/the-rubiks-cube/notation/advanced/). The initial cube is represented by `solved-cube`.
+
+In an ANSI terminal (preferably dark-themed), print the cube with `(print-cube <cube>)`.
+
+Example:
+
+``` clojure
+(print-cube (rotate solved-cube "F2 R U"))
+```
 
 ## License
 
