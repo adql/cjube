@@ -1,4 +1,4 @@
-(ns cube.engine
+(ns cjube.engine
   (:refer-clojure)
   (:require [clojure.string :as s]))
 

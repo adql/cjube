@@ -1,4 +1,4 @@
-(ns cube.display
+(ns cjube.display
   (:refer-clojure))
 
 (def face-colors
